@@ -1,0 +1,84 @@
+/* This is header section styles */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header-container{
+
+    width:1370px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-img {
+    width: 50%;
+    background-color: rgb(243, 248, 253);
+     
+}
+.head-img{
+    width: 100%;
+}
+.header-description{
+    margin-right: 200px;
+    text-align: right;
+    width: 40%;
+}
+.btn{
+    background-color: rgb(228, 102, 18);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+
+
+/* This is main section styles */
+
+.main-container{
+    display: flex;
+    width:1370px;
+    align-items: center;
+}
+.main-img{
+    width: 50%;
+}
+.right-side-container{
+    width: 50%;
+    padding-right: 10%;
+}
+.my-img{
+    width: 50%;
+    padding: 20%;
+}
+
+.my-plans{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-plans > h1{
+    margin-bottom:40px ;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+.plan-title{
+    padding: 10px;
+}
+
+.banner-img{
+    background-image: url('./images/watch.png');
+    margin-left: 8%;
+    margin-right: 8% ;
+}
+
+/* This is footer section styles */
+
+
